@@ -1,0 +1,17 @@
+{
+  "design_system": "Appadoka DS",
+  "base": "avaliacoes/2026-11-22-aprovacoes-appadoka-ds-18-svgs.json",
+  "registro": "2026-11-22",
+  "atualizacao": {
+    "id": "17",
+    "nome": "Padrão transparente",
+    "arquivo": "assets/brand/oficiais/16-padrao-coracoes-vapor.svg",
+    "decisao": "aprovado",
+    "fundamento": "Aprovação explícita na conversa"
+  },
+  "decisoes_preservadas": {
+    "id_09": "aprovado",
+    "id_18": "aprovado"
+  },
+  "observacao": "O histórico da primeira rodada não foi sobrescrito. Os 15 reprovados permanecem reprovados até serem submetidos novamente como novas revisões."
+}
