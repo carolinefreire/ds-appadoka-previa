@@ -1,0 +1,115 @@
+{
+  "design_system": "Appadoka DS",
+  "version": "18-svgs",
+  "data_exportacao": "2026-11-22T11:54:20.910Z",
+  "avaliacoes": [
+    {
+      "id": "01",
+      "nome": "Logo principal aprovada",
+      "arquivo": "assets/brand/oficiais/logo-appadoka-aprovada.svg",
+      "decisao": "reprovado"
+    },
+    {
+      "id": "02",
+      "nome": "Logo horizontal",
+      "arquivo": "assets/brand/ds18/02-logo-horizontal.svg",
+      "decisao": "reprovado"
+    },
+    {
+      "id": "03",
+      "nome": "Logo compacta",
+      "arquivo": "assets/brand/ds18/03-logo-compacta.svg",
+      "decisao": "reprovado"
+    },
+    {
+      "id": "04",
+      "nome": "Pão isolado",
+      "arquivo": "assets/brand/ds18/04-icone-pao.svg",
+      "decisao": "reprovado"
+    },
+    {
+      "id": "05",
+      "nome": "Ícone do app coral",
+      "arquivo": "assets/brand/ds18/05-icone-app-coral.svg",
+      "decisao": "reprovado"
+    },
+    {
+      "id": "06",
+      "nome": "Monograma a",
+      "arquivo": "assets/brand/ds18/06-monograma.svg",
+      "decisao": "reprovado"
+    },
+    {
+      "id": "07",
+      "nome": "Linhas de velocidade",
+      "arquivo": "assets/brand/ds18/07-linhas-velocidade.svg",
+      "decisao": "reprovado"
+    },
+    {
+      "id": "08",
+      "nome": "Vapor duplo",
+      "arquivo": "assets/brand/ds18/08-vapor-duplo.svg",
+      "decisao": "reprovado"
+    },
+    {
+      "id": "09",
+      "nome": "Onda com coração",
+      "arquivo": "assets/brand/ds18/09-onda-coracao.svg",
+      "decisao": "aprovado"
+    },
+    {
+      "id": "10",
+      "nome": "Conjunto de grafismos",
+      "arquivo": "assets/brand/ds18/10-elementos-graficos.svg",
+      "decisao": "reprovado"
+    },
+    {
+      "id": "11",
+      "nome": "Favicon creme",
+      "arquivo": "assets/brand/ds18/11-favicon-creme.svg",
+      "decisao": "reprovado"
+    },
+    {
+      "id": "12",
+      "nome": "Favicon terracota",
+      "arquivo": "assets/brand/ds18/12-favicon-terracota.svg",
+      "decisao": "reprovado"
+    },
+    {
+      "id": "13",
+      "nome": "Favicon rosé",
+      "arquivo": "assets/brand/ds18/13-favicon-rose.svg",
+      "decisao": "reprovado"
+    },
+    {
+      "id": "14",
+      "nome": "Favicon cacau",
+      "arquivo": "assets/brand/ds18/14-favicon-cacau.svg",
+      "decisao": "reprovado"
+    },
+    {
+      "id": "15",
+      "nome": "Coração e gotinhas",
+      "arquivo": "assets/brand/ds18/15-coracao-gotinhas.svg",
+      "decisao": "reprovado"
+    },
+    {
+      "id": "16",
+      "nome": "Wordmark e slogan",
+      "arquivo": "assets/brand/ds18/16-wordmark-slogan.svg",
+      "decisao": "reprovado"
+    },
+    {
+      "id": "17",
+      "nome": "Padrão transparente",
+      "arquivo": "assets/brand/oficiais/16-padrao-coracoes-vapor.svg",
+      "decisao": "pendente"
+    },
+    {
+      "id": "18",
+      "nome": "Padrão creme",
+      "arquivo": "assets/brand/oficiais/16-padrao-coracoes-vapor-creme.svg",
+      "decisao": "aprovado"
+    }
+  ]
+}
