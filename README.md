@@ -2,20 +2,24 @@
 
 Estúdio independente e interativo para revisão do Design System do Appadoka.
 
-## Abrir
+## Abrir a prévia no navegador
 
-- [HTML da prévia](./index.html)
-- Para publicar em GitHub Pages: **Settings → Pages → Build and deployment → Deploy from a branch → main / (root) → Save**.
-- Endereço esperado após a ativação do Pages: https://carolinefreire.github.io/ds-appadoka-previa/ (somente quando o GitHub confirmar a publicação).
+**[Avaliar os 18 SVGs no GitHub Pages](https://carolinefreire.github.io/ds-appadoka-previa/)**
+
+O endereço acima abre a galeria pública, não o editor do GitHub. A galeria contém botões de aprovar/desaprovar e observações individuais, com opção de exportar um novo JSON. O histórico mais recente foi importado de `avaliacoes/2026-11-22-feedback-revisao-03.json`.
 
 ## Estrutura
 
 - `index.html`: estúdio navegável e editável; funciona sem compilação.
 - `docs/ORIGEM-E-LIMITES.md`: origem dos elementos, diferenças entre prévia e código real, critérios de migração.
 
-## Identidade
+## Identidade e revisão atual
 
-SVGs referenciados sem alteração a partir de `carolinefreire/appadoka-beta`, branch `feature/cliente-design-visual-test-c01-c29`, pasta `public/brand/oficiais`. O estúdio requer internet para carregar essas imagens. Não são versões locais nem extrações da imagem rasterizada.
+- A revisão 04 está em `assets/brand/ds18-revisao-04/`, composta por 13 candidatos extraídos ou refinados a partir dos SVGs já existentes neste repositório.
+- Os itens 07, 08, 09, 17 e 18 permanecem aprovados, sem mudança nos seus arquivos. O 08 recebeu ajuste apenas de exibição na galeria.
+- Os itens 10 e 15 foram separados em duas gotinhas e coração, respectivamente. O parecer anterior segue como **reprovado** até a nova avaliação.
+- Os outros 11 itens continuam pendentes. As revisões anteriores permanecem no histórico para comparação.
+- A prévia não substitui automaticamente os ativos em `carolinefreire/appadoka-beta`.
 
 ## Escopo
 
