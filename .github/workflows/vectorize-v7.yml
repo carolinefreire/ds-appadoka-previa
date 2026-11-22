@@ -1,0 +1,25 @@
+name: Vetorização v7 - estudos privados como artefato
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'tools/vectorize_v7.py'
+      - 'design-system-appadoka-v7-detalhes-corrigidos(2)-1.png'
+      - '.github/workflows/vectorize-v7.yml'
+jobs:
+  vectorize:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install --disable-pip-version-check numpy pillow opencv-python-headless
+      - run: python tools/vectorize_v7.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: estudos-vetoriais-v7-nao-aprovados
+          path: vectorization-output/
+          retention-days: 7
