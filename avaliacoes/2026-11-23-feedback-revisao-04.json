@@ -1,0 +1,133 @@
+{
+  "design_system": "Appadoka DS",
+  "version": "18-svgs",
+  "data_exportacao": "2026-11-23T11:33:13.774Z",
+  "avaliacoes": [
+    {
+      "id": "01",
+      "nome": "Logo principal",
+      "arquivo": "assets/brand/ds18-revisao-04/01-logo-principal-suavizada.svg",
+      "decisao": "pendente",
+      "observacao": "Arestas em todas as letras e em especial nas linhas, o resto tá ok. Praticamente todos as logos estao com o mesmo problema, além que o pão tá com mordidas diferentes"
+    },
+    {
+      "id": "02",
+      "nome": "Logo horizontal",
+      "arquivo": "assets/brand/ds18-revisao-04/02-logo-horizontal.svg",
+      "decisao": "pendente",
+      "observacao": "Esse se vc conseguir ver, vc só pode estar de brincadeira comigo...."
+    },
+    {
+      "id": "03",
+      "nome": "Logo compacta",
+      "arquivo": "assets/brand/ds18-revisao-04/03-logo-compacta.svg",
+      "decisao": "pendente",
+      "observacao": "Mesmo do 1"
+    },
+    {
+      "id": "04",
+      "nome": "Pão isolado",
+      "arquivo": "assets/brand/ds18-revisao-04/04-icone-pao.svg",
+      "decisao": "pendente",
+      "observacao": "Mesmo do 1"
+    },
+    {
+      "id": "05",
+      "nome": "Ícone do app coral",
+      "arquivo": "assets/brand/ds18-revisao-04/05-icone-app-coral.svg",
+      "decisao": "pendente",
+      "observacao": "Mesmo do 1"
+    },
+    {
+      "id": "06",
+      "nome": "Monograma a",
+      "arquivo": "assets/brand/ds18-revisao-04/06-monograma.svg",
+      "decisao": "pendente",
+      "observacao": "Agora tá ruim e cheio de aresta ainda, e sem o coração nas mordidas, que ficaram muito diferentes da do pao"
+    },
+    {
+      "id": "07",
+      "nome": "Linhas de velocidade",
+      "arquivo": "assets/brand/ds18-revisao-03/07-linhas-velocidade.svg",
+      "decisao": "aprovado",
+      "observacao": ""
+    },
+    {
+      "id": "08",
+      "nome": "Vapor duplo",
+      "arquivo": "assets/brand/ds18-revisao-02/08-vapor-duplo.svg",
+      "decisao": "aprovado",
+      "observacao": "Só está fora do alinhamento do site "
+    },
+    {
+      "id": "09",
+      "nome": "Onda com coração",
+      "arquivo": "assets/brand/ds18/09-onda-coracao.svg",
+      "decisao": "aprovado",
+      "observacao": ""
+    },
+    {
+      "id": "10",
+      "nome": "Duas gotinhas",
+      "arquivo": "assets/brand/ds18-revisao-04/10-duas-gotinhas.svg",
+      "decisao": "aprovado",
+      "observacao": ""
+    },
+    {
+      "id": "11",
+      "nome": "Favicon creme",
+      "arquivo": "assets/brand/ds18-revisao-04/11-favicon-creme.svg",
+      "decisao": "pendente",
+      "observacao": "Mesma coisa do um e está fora dos limites do site"
+    },
+    {
+      "id": "12",
+      "nome": "Favicon terracota",
+      "arquivo": "assets/brand/ds18-revisao-04/12-favicon-terracota.svg",
+      "decisao": "pendente",
+      "observacao": "Mesmo do de cima"
+    },
+    {
+      "id": "13",
+      "nome": "Favicon rosé",
+      "arquivo": "assets/brand/ds18-revisao-04/13-favicon-rose.svg",
+      "decisao": "pendente",
+      "observacao": "Mesmo do de cima"
+    },
+    {
+      "id": "14",
+      "nome": "Favicon cacau",
+      "arquivo": "assets/brand/ds18-revisao-04/14-favicon-cacau.svg",
+      "decisao": "pendente",
+      "observacao": "Mesmo de cima"
+    },
+    {
+      "id": "15",
+      "nome": "Coração isolado",
+      "arquivo": "assets/brand/ds18-revisao-04/15-coracao.svg",
+      "decisao": "aprovado",
+      "observacao": ""
+    },
+    {
+      "id": "16",
+      "nome": "Wordmark e slogan",
+      "arquivo": "assets/brand/ds18-revisao-04/16-wordmark-slogan.svg",
+      "decisao": "pendente",
+      "observacao": "Mesmo do 1"
+    },
+    {
+      "id": "17",
+      "nome": "Padrão transparente",
+      "arquivo": "assets/brand/oficiais/16-padrao-coracoes-vapor.svg",
+      "decisao": "aprovado",
+      "observacao": ""
+    },
+    {
+      "id": "18",
+      "nome": "Padrão creme",
+      "arquivo": "assets/brand/oficiais/16-padrao-coracoes-vapor-creme.svg",
+      "decisao": "aprovado",
+      "observacao": ""
+    }
+  ]
+}
