@@ -36,3 +36,9 @@ O endereço acima abre a galeria pública, não o editor do GitHub. A galeria co
 2. Converter componentes aprovados para uma biblioteca React independente, com variantes, estados e testes.
 3. Comparar as telas C02–C13 com implementações e mockups aprovados, sem substituição automática.
 4. Somente após aprovação, integrar o DS ao aplicativo e marcar o antigo como legado.
+
+## Revisão 06 (23/11/2026)
+
+Base da rodada: `avaliacoes/2026-11-23-feedback-revisao-05.json`. Onze propostas em `assets/brand/ds18-revisao-06/`. O pão utiliza a base original `ds18/04-icone-pao.svg`, combinada aos grafismos aprovados 07, 08, 10 e 15, sem modificar os arquivos fonte. O monograma retoma a letra `a` arredondada da revisão 02 com novo recorte de mordida. Ajustes propostos: reforço das curvas no lettering, maior proximidade com espaço no logo horizontal, favicons maiores e centralizados e suavização do slogan.
+
+**Sete elementos aprovados seguem intactos e onze candidatos aguardam aprovação visual.** Todas as versões anteriores foram preservadas e o aplicativo não foi alterado.
