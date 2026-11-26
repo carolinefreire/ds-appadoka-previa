@@ -1,0 +1,166 @@
+{
+  "items": [
+    {
+      "id": "01",
+      "path": "assets/brand/ds18-revisao-06/01-logo-principal-suavizada.svg",
+      "name": "Logo principal",
+      "category": "Logo original",
+      "status": "pendente",
+      "notes": "Arestas em todas as letras e em especial nas linhas, o pão está novamente diferente, pegue o pão original. Praticamente todos as logos estao com o mesmo problema, ainda não está resolvendo....pegue as os elementos aprovados aqui e o resto pegue da pasta do DS já aprovados e nos prints que te mandei, posso mandar de novo",
+      "image": "assets/brand/ds18-revisao-06/01-logo-principal-suavizada.svg"
+    },
+    {
+      "id": "02",
+      "path": "assets/brand/ds18-revisao-06/02-logo-horizontal.svg",
+      "name": "Logo horizontal",
+      "category": "Variação DS",
+      "status": "pendente",
+      "notes": "Cheguei o pão mais perto das letras, mas não encoste",
+      "image": "assets/brand/ds18-revisao-06/02-logo-horizontal.svg"
+    },
+    {
+      "id": "03",
+      "path": "assets/brand/ds18-revisao-06/03-logo-compacta.svg",
+      "name": "Logo compacta",
+      "category": "Variação DS",
+      "status": "pendente",
+      "notes": "Mesmo do 1",
+      "image": "assets/brand/ds18-revisao-06/03-logo-compacta.svg"
+    },
+    {
+      "id": "04",
+      "path": "assets/brand/ds18-revisao-06/04-icone-pao.svg",
+      "name": "Pão isolado",
+      "category": "Símbolo DS",
+      "status": "pendente",
+      "notes": "",
+      "image": "assets/brand/ds18-revisao-06/04-icone-pao.svg"
+    },
+    {
+      "id": "05",
+      "path": "assets/brand/ds18-revisao-06/05-icone-app-coral.svg",
+      "name": "Ícone do app coral",
+      "category": "Ícone DS",
+      "status": "pendente",
+      "notes": "Mesmo do 1",
+      "image": "assets/brand/ds18-revisao-06/05-icone-app-coral.svg"
+    },
+    {
+      "id": "06",
+      "path": "assets/brand/ds18-revisao-06/06-monograma.svg",
+      "name": "Monograma a",
+      "category": "Marca DS",
+      "status": "pendente",
+      "notes": "Oxi, que mordidas são essas? Tem que ser igual ao do pao e o a ainda está hexagonal",
+      "image": "assets/brand/ds18-revisao-06/06-monograma.svg"
+    },
+    {
+      "id": "07",
+      "path": "assets/brand/ds18-revisao-03/07-linhas-velocidade.svg",
+      "name": "Linhas de velocidade",
+      "category": "Grafismo DS",
+      "status": "aprovado",
+      "notes": "",
+      "image": "assets/brand/ds18-revisao-03/07-linhas-velocidade.svg"
+    },
+    {
+      "id": "08",
+      "path": "assets/brand/ds18-revisao-02/08-vapor-duplo.svg",
+      "name": "Vapor duplo",
+      "category": "Grafismo DS",
+      "status": "aprovado",
+      "notes": "Só está fora do alinhamento do site ",
+      "image": "assets/brand/ds18-revisao-02/08-vapor-duplo.svg"
+    },
+    {
+      "id": "09",
+      "path": "assets/brand/ds18/09-onda-coracao.svg",
+      "name": "Onda com coração",
+      "category": "Grafismo DS",
+      "status": "aprovado",
+      "notes": "",
+      "image": "assets/brand/ds18/09-onda-coracao.svg"
+    },
+    {
+      "id": "10",
+      "path": "assets/brand/ds18-revisao-04/10-duas-gotinhas.svg",
+      "name": "Duas gotinhas",
+      "category": "Grafismo DS",
+      "status": "aprovado",
+      "notes": "",
+      "image": "assets/brand/ds18-revisao-04/10-duas-gotinhas.svg"
+    },
+    {
+      "id": "11",
+      "path": "assets/brand/ds18-revisao-06/11-favicon-creme.svg",
+      "name": "Favicon creme",
+      "category": "Favicon DS",
+      "status": "pendente",
+      "notes": "Mesma coisa do um e não está centralizado no quadrado, além de estar pequeno",
+      "image": "assets/brand/ds18-revisao-06/11-favicon-creme.svg"
+    },
+    {
+      "id": "12",
+      "path": "assets/brand/ds18-revisao-06/12-favicon-terracota.svg",
+      "name": "Favicon terracota",
+      "category": "Favicon DS",
+      "status": "pendente",
+      "notes": "Mesmo do de cima",
+      "image": "assets/brand/ds18-revisao-06/12-favicon-terracota.svg"
+    },
+    {
+      "id": "13",
+      "path": "assets/brand/ds18-revisao-06/13-favicon-rose.svg",
+      "name": "Favicon rosé",
+      "category": "Favicon DS",
+      "status": "pendente",
+      "notes": "Mesmo do de cima",
+      "image": "assets/brand/ds18-revisao-06/13-favicon-rose.svg"
+    },
+    {
+      "id": "14",
+      "path": "assets/brand/ds18-revisao-06/14-favicon-cacau.svg",
+      "name": "Favicon cacau",
+      "category": "Favicon DS",
+      "status": "pendente",
+      "notes": "Mesmo de cima",
+      "image": "assets/brand/ds18-revisao-06/14-favicon-cacau.svg"
+    },
+    {
+      "id": "15",
+      "path": "assets/brand/ds18-revisao-04/15-coracao.svg",
+      "name": "Coração isolado",
+      "category": "Símbolo DS",
+      "status": "aprovado",
+      "notes": "",
+      "image": "assets/brand/ds18-revisao-04/15-coracao.svg"
+    },
+    {
+      "id": "16",
+      "path": "assets/brand/ds18-revisao-06/16-wordmark-slogan.svg",
+      "name": "Wordmark e slogan",
+      "category": "Letreiro DS",
+      "status": "pendente",
+      "notes": "Mesmo do problema do um, arestas e falha no pediu, passou, oegou",
+      "image": "assets/brand/ds18-revisao-06/16-wordmark-slogan.svg"
+    },
+    {
+      "id": "17",
+      "path": "assets/brand/oficiais/16-padrao-coracoes-vapor.svg",
+      "name": "Padrão transparente",
+      "category": "Textura",
+      "status": "aprovado",
+      "notes": "",
+      "image": "assets/brand/oficiais/16-padrao-coracoes-vapor.svg"
+    },
+    {
+      "id": "18",
+      "path": "assets/brand/oficiais/16-padrao-coracoes-vapor-creme.svg",
+      "name": "Padrão creme",
+      "category": "Textura",
+      "status": "aprovado",
+      "notes": "",
+      "image": "assets/brand/oficiais/16-padrao-coracoes-vapor-creme.svg"
+    }
+  ]
+}
