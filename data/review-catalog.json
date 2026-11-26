@@ -620,7 +620,7 @@
       "status": "pendente",
       "notes": "Arestas em todas as letras e em especial nas linhas, o pão está novamente diferente, pegue o pão original. Praticamente todos as logos estao com o mesmo problema, ainda não está resolvendo....pegue as os elementos aprovados aqui e o resto pegue da pasta do DS já aprovados e nos prints que te mandei, posso mandar de novo",
       "image": "assets/brand/ds18-revisao-06/01-logo-principal-suavizada.svg",
-      "scope": "rodada_atual",
+      "scope": "versoes_anteriores",
       "sha": "efaeba60f19e0aafa0e028b29877d08ef8d35306"
     },
     {
@@ -653,7 +653,7 @@
       "status": "pendente",
       "notes": "",
       "image": "assets/brand/ds18-revisao-06/04-icone-pao.svg",
-      "scope": "rodada_atual",
+      "scope": "versoes_anteriores",
       "sha": "4b45cf0f2837ceb37fa9cb505146089fb3a2562a"
     },
     {
@@ -686,7 +686,7 @@
       "status": "pendente",
       "notes": "Mesma coisa do um e não está centralizado no quadrado, além de estar pequeno",
       "image": "assets/brand/ds18-revisao-06/11-favicon-creme.svg",
-      "scope": "rodada_atual",
+      "scope": "versoes_anteriores",
       "sha": "4108e76586e5e350d1ae36406bbec8a2fb20914a"
     },
     {
@@ -697,7 +697,7 @@
       "status": "pendente",
       "notes": "Mesmo do de cima",
       "image": "assets/brand/ds18-revisao-06/12-favicon-terracota.svg",
-      "scope": "rodada_atual",
+      "scope": "versoes_anteriores",
       "sha": "4a5c1118bfd3b552c63598d2985583f05dbbebaa"
     },
     {
@@ -708,7 +708,7 @@
       "status": "pendente",
       "notes": "Mesmo do de cima",
       "image": "assets/brand/ds18-revisao-06/13-favicon-rose.svg",
-      "scope": "rodada_atual",
+      "scope": "versoes_anteriores",
       "sha": "c803acdfddfb13fa46f0545aba2595017d1e5f50"
     },
     {
@@ -719,7 +719,7 @@
       "status": "pendente",
       "notes": "Mesmo de cima",
       "image": "assets/brand/ds18-revisao-06/14-favicon-cacau.svg",
-      "scope": "rodada_atual",
+      "scope": "versoes_anteriores",
       "sha": "b743febdadd830477fcb8a68e876f63ca79d8f21"
     },
     {
@@ -3778,6 +3778,66 @@
       "image": null,
       "scope": "appadoka_beta",
       "sha": "cad60c469bc2e57af0049653a535cb149526c737"
+    },
+    {
+      "id": "r07-04",
+      "path": "assets/brand/ds18-revisao-07/04-icone-pao.svg",
+      "name": "Pão isolado",
+      "category": "Símbolo DS",
+      "status": "pendente",
+      "notes": "Contorno e preenchimento do pão suavizados; grafismos preservados.",
+      "image": "assets/brand/ds18-revisao-07/04-icone-pao.svg",
+      "scope": "rodada_atual"
+    },
+    {
+      "id": "r07-11",
+      "path": "assets/brand/ds18-revisao-07/11-favicon-creme.svg",
+      "name": "Favicon creme",
+      "category": "Favicon DS",
+      "status": "pendente",
+      "notes": "Pão suavizado; conjunto deslocado 25 unidades para cima.",
+      "image": "assets/brand/ds18-revisao-07/11-favicon-creme.svg",
+      "scope": "rodada_atual"
+    },
+    {
+      "id": "r07-12",
+      "path": "assets/brand/ds18-revisao-07/12-favicon-terracota.svg",
+      "name": "Favicon terracota",
+      "category": "Favicon DS",
+      "status": "pendente",
+      "notes": "Pão suavizado; conjunto deslocado 25 unidades para cima.",
+      "image": "assets/brand/ds18-revisao-07/12-favicon-terracota.svg",
+      "scope": "rodada_atual"
+    },
+    {
+      "id": "r07-13",
+      "path": "assets/brand/ds18-revisao-07/13-favicon-rose.svg",
+      "name": "Favicon rosé",
+      "category": "Favicon DS",
+      "status": "pendente",
+      "notes": "Pão suavizado; conjunto deslocado 25 unidades para cima.",
+      "image": "assets/brand/ds18-revisao-07/13-favicon-rose.svg",
+      "scope": "rodada_atual"
+    },
+    {
+      "id": "r07-14",
+      "path": "assets/brand/ds18-revisao-07/14-favicon-cacau.svg",
+      "name": "Favicon cacau",
+      "category": "Favicon DS",
+      "status": "pendente",
+      "notes": "Pão suavizado; conjunto deslocado 25 unidades para cima.",
+      "image": "assets/brand/ds18-revisao-07/14-favicon-cacau.svg",
+      "scope": "rodada_atual"
+    },
+    {
+      "id": "r07-01",
+      "path": "assets/brand/ds18-revisao-07/01-logo-principal-suavizada.svg",
+      "name": "Logo principal",
+      "category": "Logo original",
+      "status": "pendente",
+      "notes": "Pão suavizado; lettering ainda requer revisão.",
+      "image": "assets/brand/ds18-revisao-07/01-logo-principal-suavizada.svg",
+      "scope": "rodada_atual"
     }
   ]
 }
