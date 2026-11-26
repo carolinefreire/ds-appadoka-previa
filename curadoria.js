@@ -93,6 +93,22 @@ $("dialog-close").addEventListener("click", closeDialog);
 $("action-dialog").addEventListener("click", event => {
   if (event.target === $("action-dialog")) closeDialog();
 });
+let decisionItem=null, decisionOrigin=null;
+const decisionDialog=$("decision-dialog");
+function decisionLink(item,action){
+ const title="[Curadoria] "+(action==="approve"?"Aprovar":"Reprovar e solicitar exclusão")+" · "+item.name;
+ const body=["## Decisão de curadoria", "", "**Decisão:** "+(action==="approve"?"Aprovar":"Reprovar e excluir o arquivo da prévia"), "**ID:** "+item.id, "**Arquivo:** "+item.path, "**Estado atual:** "+readable(item), "", "Solicitação sujeita à verificação de autorização e referências antes de qualquer alteração."].join("\n");
+ return "https://github.com/"+repo+"/issues/new?"+new URLSearchParams({title,body});
+}
+function openDecision(item,action,origin){
+ if(action==="approve"){window.open(decisionLink(item,action),"_blank","noopener,noreferrer");return;}
+ decisionItem=item;decisionOrigin=origin;
+ $("decision-name").textContent=item.name+" · "+item.path;
+ decisionDialog.showModal();$("decision-cancel").focus();
+}
+$("decision-cancel").addEventListener("click",()=>decisionDialog.close());
+$("decision-confirm").addEventListener("click",()=>{if(!decisionItem)return;window.open(decisionLink(decisionItem,"reject"),"_blank","noopener,noreferrer");decisionDialog.close();});
+decisionDialog.addEventListener("close",()=>{decisionOrigin?.focus();decisionItem=null;});
 function render() {
   const term = $("search").value.trim().toLocaleLowerCase("pt-BR");
   const status = $("filter").value;
@@ -109,7 +125,11 @@ function render() {
     grid.append(E("p", "", "Nenhum arquivo encontrado."));
     return;
   }
+  visible.sort((a,b)=>(["pendente","aprovado","reprovado_historico"].indexOf(a.status)-["pendente","aprovado","reprovado_historico"].indexOf(b.status)) || a.category.localeCompare(b.category,"pt-BR") || a.id.localeCompare(b.id));
+  let lastGroup="";
   for (const item of visible) {
+    const group=isApproved(item)?"Acervo aprovado":item.status==="reprovado_historico"?"Histórico de reprovações":"Em avaliação";
+    if(group!==lastGroup){grid.append(E("h2","curation-group",group));lastGroup=group;}
     const card = E("article","review-card");
     const thumb = E("button","review-thumb");
     thumb.type = "button";
@@ -128,6 +148,14 @@ function render() {
     open.type = "button";
     open.addEventListener("click",() => openDialog(item,open));
     data.append(open);
+    const actions=E("div","curation-actions");
+    const approve=E("button","curation-approve",isApproved(item)?"✓ Aprovado":"✓ Aprovar");
+    approve.type="button";approve.disabled=isApproved(item);
+    approve.addEventListener("click",()=>openDecision(item,"approve",approve));
+    const reject=E("button","curation-reject","✕ Desaprovar");reject.type="button";
+    reject.disabled=item.status==="reprovado_historico";
+    reject.addEventListener("click",()=>openDecision(item,"reject",reject));
+    actions.append(approve,reject);data.append(actions);
     card.append(thumb,data);
     grid.append(card);
   }
