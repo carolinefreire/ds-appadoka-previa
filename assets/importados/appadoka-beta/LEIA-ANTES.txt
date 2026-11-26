@@ -1,0 +1,8 @@
+Appadoka V7 — versão vetorial de avaliação
+
+Fonte: painel V7 fornecido pela proprietária.
+Todos os SVGs são traçados vetoriais editáveis, sem raster ou fontes incorporadas.
+A referência recebida é raster; logo e elementos foram vetorizados a partir dos pixels, portanto não constituem os vetores autorais originais.
+A amostra de textura foi recomposta e deve ser comparada antes de produção.
+Compatibilidade técnica validada: XML e renderização dos 14 arquivos.
+Não foram alterados arquivos no GitHub ou Lovable nesta etapa.
