@@ -45,7 +45,7 @@ function openDialog(item, origin) {
   selected = item;
   focusOrigin = origin;
   $("dialog-title").textContent = item.name;
-  $("dialog-category").textContent = item.category + " · " + readable(item) + " · " + item.path;
+  $("dialog-category").textContent = item.category + " · " + readable(item) + " · " + (item.sourcePath||item.path);
   const img = $("dialog-preview"), unavailable = $("private-preview");
   setPreview(img, item, unavailable);
   // This link needs GitHub authorization, since the original repository is private.
@@ -61,13 +61,15 @@ function issueUrl(item, note) {
     "## Solicitação de ajuste · Design System Appadoka",
     "",
     "**Imagem:** " + item.name,
-    "**Arquivo de origem:** `" + original + "`",
+    "**Arquivo de origem:** `" + (item.sourcePath||original) + "`",
+    "**Repositório de origem:** "+(item.sourceRepo||repo),
+    "**Arquivo da prévia:** "+original,
     "**Categoria:** " + item.category,
     "**Estado exibido:** " + readable(item),
     "**Prévia pública:** " + (item.image ?
       "https://carolinefreire.github.io/ds-appadoka-previa/" + item.image : "Ainda não disponível"),
     "",
-    ...(item.image ? ["### Imagem em avaliação", "", "![" + item.name + "](https://raw.githubusercontent.com/" + repo + "/8f0303773549ce0863527607cd6d20994565d273/" + item.path.split("/").map(encodeURIComponent).join("/") + ")", ""] : []),
+    ...(item.image ? ["### Imagem em avaliação", "", "![" + item.name + "](https://raw.githubusercontent.com/" + repo + "/main/" + item.path.split("/").map(encodeURIComponent).join("/") + ")", ""] : []),
     "### Ajuste ou observação",
     note,
     "",
@@ -119,7 +121,7 @@ function render() {
   const scope=$("scope").value, category=$("category").value;
   const visible = items.filter(item =>
     (status === "todos" || (item.status === status)) && (scope==="todos" || item.scope===scope) && (category==="todos" || item.category===category) &&
-    [item.name,item.category,item.path,item.notes || "",item.scope].join(" ").toLocaleLowerCase("pt-BR").includes(term)
+    [item.name,item.category,item.path,item.sourcePath||"",item.notes || "",item.scope].join(" ").toLocaleLowerCase("pt-BR").includes(term)
   );
   const renderable = items.filter(item => Boolean(item.image)).length;
   $("status").textContent = visible.length + " de " + items.length +
@@ -145,9 +147,10 @@ function render() {
     setPreview(image,item,unavailable);
     thumb.addEventListener("click",() => openDialog(item,thumb));
     const data = E("div","review-details");
-    data.append(E("span","review-label",item.category+" · "+({rodada_atual:"Rodada atual",acervo_oficial:"Acervo oficial",versoes_anteriores:"Versão anterior",referencia_estudo:"Referência / estudo"}[item.scope]||"")),E("h2","",item.name),E("p","",item.path));
+    data.append(E("span","review-label",item.category+" · "+({rodada_atual:"Rodada atual",acervo_oficial:"Acervo oficial",versoes_anteriores:"Versão anterior",referencia_estudo:"Referência / estudo",appadoka_beta:"Appadoka beta"}[item.scope]||"")),E("h2","",item.name),E("p","",item.path));
     data.append(E("span","review-status " + (isApproved(item) ? "is-approved" :
       item.status === "reprovado_historico" ? "is-rejected" : ""), readable(item)));
+    if(item.sourcePath) data.append(E("p","","Origem: "+item.sourceRepo+"/"+item.sourcePath));
     if (item.notes) data.append(E("p","",item.notes));
     const open = E("button","review-open",item.image ? "Ampliar e abrir Issue ↗" : "Detalhes e abrir Issue ↗");
     open.type = "button";
