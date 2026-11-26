@@ -67,8 +67,12 @@ function issueUrl(item, note) {
     "**Prévia pública:** " + (item.image ?
       "https://carolinefreire.github.io/ds-appadoka-previa/" + item.image : "Ainda não disponível"),
     "",
+    ...(item.image ? ["### Imagem em avaliação", "", "![" + item.name + "](https://raw.githubusercontent.com/" + repo + "/8f0303773549ce0863527607cd6d20994565d273/" + item.image.split("/").map(encodeURIComponent).join("/") + ")", ""] : []),
     "### Ajuste ou observação",
     note,
+    "",
+    "### Imagem de referência (opcional)",
+    "Anexe um print ou imagem de referência aqui pelo editor do GitHub.",
     "",
     "> Este registro é uma sugestão pública. Não aprova, exclui nem modifica código ou imagens. A responsável revisará manualmente."
   ].join("\n");
