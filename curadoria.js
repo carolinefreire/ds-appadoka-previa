@@ -67,7 +67,7 @@ function issueUrl(item, note) {
     "**Prévia pública:** " + (item.image ?
       "https://carolinefreire.github.io/ds-appadoka-previa/" + item.image : "Ainda não disponível"),
     "",
-    ...(item.image ? ["### Imagem em avaliação", "", "![" + item.name + "](https://raw.githubusercontent.com/" + repo + "/8f0303773549ce0863527607cd6d20994565d273/" + item.image.split("/").map(encodeURIComponent).join("/") + ")", ""] : []),
+    ...(item.image ? ["### Imagem em avaliação", "", "![" + item.name + "](https://raw.githubusercontent.com/" + repo + "/8f0303773549ce0863527607cd6d20994565d273/" + item.path.split("/").map(encodeURIComponent).join("/") + ")", ""] : []),
     "### Ajuste ou observação",
     note,
     "",
@@ -116,9 +116,10 @@ decisionDialog.addEventListener("close",()=>{decisionOrigin?.focus();decisionIte
 function render() {
   const term = $("search").value.trim().toLocaleLowerCase("pt-BR");
   const status = $("filter").value;
+  const scope=$("scope").value, category=$("category").value;
   const visible = items.filter(item =>
-    (status === "todos" || (item.status === status)) &&
-    [item.name,item.category,item.path,item.notes || ""].join(" ").toLocaleLowerCase("pt-BR").includes(term)
+    (status === "todos" || (item.status === status)) && (scope==="todos" || item.scope===scope) && (category==="todos" || item.category===category) &&
+    [item.name,item.category,item.path,item.notes || "",item.scope].join(" ").toLocaleLowerCase("pt-BR").includes(term)
   );
   const renderable = items.filter(item => Boolean(item.image)).length;
   $("status").textContent = visible.length + " de " + items.length +
@@ -144,7 +145,7 @@ function render() {
     setPreview(image,item,unavailable);
     thumb.addEventListener("click",() => openDialog(item,thumb));
     const data = E("div","review-details");
-    data.append(E("span","review-label",item.category),E("h2","",item.name),E("p","",item.path));
+    data.append(E("span","review-label",item.category+" · "+({rodada_atual:"Rodada atual",acervo_oficial:"Acervo oficial",versoes_anteriores:"Versão anterior",referencia_estudo:"Referência / estudo"}[item.scope]||"")),E("h2","",item.name),E("p","",item.path));
     data.append(E("span","review-status " + (isApproved(item) ? "is-approved" :
       item.status === "reprovado_historico" ? "is-rejected" : ""), readable(item)));
     if (item.notes) data.append(E("p","",item.notes));
@@ -166,6 +167,8 @@ function render() {
 }
 $("search").addEventListener("input",render);
 $("filter").addEventListener("change",render);
+$("scope").addEventListener("change",render);
+$("category").addEventListener("change",render);
 $("export").addEventListener("click", () => {
   const data = {
     schema:"appadoka-ds-curadoria-export/v3",repository:repo,
@@ -188,6 +191,7 @@ fetch("data/review-catalog.json",{cache:"no-cache"}).then(async response => {
 }).then(data => {
   if (!Array.isArray(data.items)) throw Error("Catálogo inválido");
   items = data.items;
+  for(const c of [...new Set(items.map(i=>i.category))].sort((a,b)=>a.localeCompare(b,"pt-BR"))){const opt=E("option","",c);opt.value=c;$("category").append(opt);}
   $("total").textContent = String(items.length);
   $("aprovados").textContent = String(items.filter(isApproved).length);
   $("pendentes").textContent = String(items.filter(item => !isApproved(item)).length);
