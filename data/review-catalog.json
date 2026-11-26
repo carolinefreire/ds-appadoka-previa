@@ -97,18 +97,6 @@
       "decisionSource": "avaliacoes/2026-11-23-feedback-revisao-05.json"
     },
     {
-      "id": "arquivo-bcb08a478e-ds18-revisao-02/10-elementos-graficos.svg",
-      "path": "assets/brand/ds18-revisao-02/10-elementos-graficos.svg",
-      "name": "Conjunto de grafismos",
-      "category": "Grafismo",
-      "status": "reprovado_historico",
-      "notes": "Pode apagar esse e fazer desse só as duas gotinhas, e o 15 não dá pra escrever observação, mas faça daquele só o coração e esse daqui só as duas gotinhas",
-      "image": "assets/brand/ds18-revisao-02/10-elementos-graficos.svg",
-      "scope": "versoes_anteriores",
-      "sha": "bcb08a478e717ac905d0036d761111b37fdb5f2b",
-      "decisionSource": "avaliacoes/2026-11-22-feedback-revisao-03.json"
-    },
-    {
       "id": "arquivo-d4bf3ee5fd-ds18-revisao-02/11-favicon-creme.svg",
       "path": "assets/brand/ds18-revisao-02/11-favicon-creme.svg",
       "name": "Favicon creme",
@@ -155,18 +143,6 @@
       "scope": "versoes_anteriores",
       "sha": "5c6cb186c4ef5b77ef0ca3dc9e4778ba1c3beaea",
       "decisionSource": "avaliacoes/2026-11-22-feedback-revisao-02.json"
-    },
-    {
-      "id": "arquivo-81fae91ede-ds18-revisao-02/15-coracao-gotinhas.svg",
-      "path": "assets/brand/ds18-revisao-02/15-coracao-gotinhas.svg",
-      "name": "Coração e gotinhas",
-      "category": "Grafismo",
-      "status": "reprovado_historico",
-      "notes": "",
-      "image": "assets/brand/ds18-revisao-02/15-coracao-gotinhas.svg",
-      "scope": "versoes_anteriores",
-      "sha": "81fae91ede5946591cf086b2d72506617d9a5b8f",
-      "decisionSource": "avaliacoes/2026-11-22-feedback-revisao-03.json"
     },
     {
       "id": "arquivo-89fe103d23-ds18-revisao-02/16-wordmark-slogan.svg",
@@ -734,90 +710,6 @@
       "sha": "e5135f0faefbe14d8c4682c921e97f50983b55d6"
     },
     {
-      "id": "arquivo-41e27da84c-ds18/02-logo-horizontal.svg",
-      "path": "assets/brand/ds18/02-logo-horizontal.svg",
-      "name": "Logo horizontal",
-      "category": "Marca",
-      "status": "reprovado_historico",
-      "notes": "",
-      "image": "assets/brand/ds18/02-logo-horizontal.svg",
-      "scope": "versoes_anteriores",
-      "sha": "41e27da84cd805c151d4e85440838d0c7b205058",
-      "decisionSource": "avaliacoes/2026-11-22-aprovacoes-appadoka-ds-18-svgs.json"
-    },
-    {
-      "id": "arquivo-ef1079a353-ds18/03-logo-compacta.svg",
-      "path": "assets/brand/ds18/03-logo-compacta.svg",
-      "name": "Logo compacta",
-      "category": "Marca",
-      "status": "reprovado_historico",
-      "notes": "",
-      "image": "assets/brand/ds18/03-logo-compacta.svg",
-      "scope": "versoes_anteriores",
-      "sha": "ef1079a35385df301883a1f532a6c483922f7197",
-      "decisionSource": "avaliacoes/2026-11-22-aprovacoes-appadoka-ds-18-svgs.json"
-    },
-    {
-      "id": "arquivo-105a947f3d-ds18/04-icone-pao.svg",
-      "path": "assets/brand/ds18/04-icone-pao.svg",
-      "name": "Pão isolado",
-      "category": "Ícone e símbolo",
-      "status": "reprovado_historico",
-      "notes": "",
-      "image": "assets/brand/ds18/04-icone-pao.svg",
-      "scope": "versoes_anteriores",
-      "sha": "105a947f3d88e73d4e66890c22605384e19698a3",
-      "decisionSource": "avaliacoes/2026-11-22-aprovacoes-appadoka-ds-18-svgs.json"
-    },
-    {
-      "id": "arquivo-d64fc954ee-ds18/05-icone-app-coral.svg",
-      "path": "assets/brand/ds18/05-icone-app-coral.svg",
-      "name": "Ícone do app coral",
-      "category": "Ícone e símbolo",
-      "status": "reprovado_historico",
-      "notes": "",
-      "image": "assets/brand/ds18/05-icone-app-coral.svg",
-      "scope": "versoes_anteriores",
-      "sha": "d64fc954eef5d041eec2cb4a85b70737d49faef9",
-      "decisionSource": "avaliacoes/2026-11-22-aprovacoes-appadoka-ds-18-svgs.json"
-    },
-    {
-      "id": "arquivo-69796d4738-ds18/06-monograma.svg",
-      "path": "assets/brand/ds18/06-monograma.svg",
-      "name": "Monograma a",
-      "category": "Ícone e símbolo",
-      "status": "reprovado_historico",
-      "notes": "",
-      "image": "assets/brand/ds18/06-monograma.svg",
-      "scope": "versoes_anteriores",
-      "sha": "69796d4738dd3ca24ca4627f512d7697cd7bac40",
-      "decisionSource": "avaliacoes/2026-11-22-aprovacoes-appadoka-ds-18-svgs.json"
-    },
-    {
-      "id": "arquivo-e127c2901b-ds18/07-linhas-velocidade.svg",
-      "path": "assets/brand/ds18/07-linhas-velocidade.svg",
-      "name": "Linhas de velocidade",
-      "category": "Grafismo",
-      "status": "reprovado_historico",
-      "notes": "",
-      "image": "assets/brand/ds18/07-linhas-velocidade.svg",
-      "scope": "versoes_anteriores",
-      "sha": "e127c2901b468e756c670daa0a8bf9465469ac5a",
-      "decisionSource": "avaliacoes/2026-11-22-aprovacoes-appadoka-ds-18-svgs.json"
-    },
-    {
-      "id": "arquivo-453141a216-ds18/08-vapor-duplo.svg",
-      "path": "assets/brand/ds18/08-vapor-duplo.svg",
-      "name": "Vapor duplo",
-      "category": "Grafismo",
-      "status": "reprovado_historico",
-      "notes": "",
-      "image": "assets/brand/ds18/08-vapor-duplo.svg",
-      "scope": "versoes_anteriores",
-      "sha": "453141a2163e2f6c5137d532fcec593b056aa438",
-      "decisionSource": "avaliacoes/2026-11-22-aprovacoes-appadoka-ds-18-svgs.json"
-    },
-    {
       "id": "09",
       "path": "assets/brand/ds18/09-onda-coracao.svg",
       "name": "Onda com coração",
@@ -828,90 +720,6 @@
       "scope": "rodada_atual",
       "sha": "c3dc1f181c74645ae20eff17611567fa07e3c486",
       "decisionSource": "avaliacoes/2026-11-23-feedback-revisao-05.json"
-    },
-    {
-      "id": "arquivo-b102a27a4e-ds18/10-elementos-graficos.svg",
-      "path": "assets/brand/ds18/10-elementos-graficos.svg",
-      "name": "Conjunto de grafismos",
-      "category": "Grafismo",
-      "status": "reprovado_historico",
-      "notes": "",
-      "image": "assets/brand/ds18/10-elementos-graficos.svg",
-      "scope": "versoes_anteriores",
-      "sha": "b102a27a4eae231a0a459da21d0376d1581f79bd",
-      "decisionSource": "avaliacoes/2026-11-22-aprovacoes-appadoka-ds-18-svgs.json"
-    },
-    {
-      "id": "arquivo-347503908f-ds18/11-favicon-creme.svg",
-      "path": "assets/brand/ds18/11-favicon-creme.svg",
-      "name": "Favicon creme",
-      "category": "Favicon",
-      "status": "reprovado_historico",
-      "notes": "",
-      "image": "assets/brand/ds18/11-favicon-creme.svg",
-      "scope": "versoes_anteriores",
-      "sha": "347503908f2a94316d5be608ecd72419de32920e",
-      "decisionSource": "avaliacoes/2026-11-22-aprovacoes-appadoka-ds-18-svgs.json"
-    },
-    {
-      "id": "arquivo-54ae769ff5-ds18/12-favicon-terracota.svg",
-      "path": "assets/brand/ds18/12-favicon-terracota.svg",
-      "name": "Favicon terracota",
-      "category": "Favicon",
-      "status": "reprovado_historico",
-      "notes": "",
-      "image": "assets/brand/ds18/12-favicon-terracota.svg",
-      "scope": "versoes_anteriores",
-      "sha": "54ae769ff58d951e67f1d799dda14ac43876d0e7",
-      "decisionSource": "avaliacoes/2026-11-22-aprovacoes-appadoka-ds-18-svgs.json"
-    },
-    {
-      "id": "arquivo-ea7e176e10-ds18/13-favicon-rose.svg",
-      "path": "assets/brand/ds18/13-favicon-rose.svg",
-      "name": "Favicon rosé",
-      "category": "Favicon",
-      "status": "reprovado_historico",
-      "notes": "",
-      "image": "assets/brand/ds18/13-favicon-rose.svg",
-      "scope": "versoes_anteriores",
-      "sha": "ea7e176e10691bb0105c5e582f45fc52b6cd9248",
-      "decisionSource": "avaliacoes/2026-11-22-aprovacoes-appadoka-ds-18-svgs.json"
-    },
-    {
-      "id": "arquivo-ded230e999-ds18/14-favicon-cacau.svg",
-      "path": "assets/brand/ds18/14-favicon-cacau.svg",
-      "name": "Favicon cacau",
-      "category": "Favicon",
-      "status": "reprovado_historico",
-      "notes": "",
-      "image": "assets/brand/ds18/14-favicon-cacau.svg",
-      "scope": "versoes_anteriores",
-      "sha": "ded230e999dfaec1023c04aafe6e77b3135e60aa",
-      "decisionSource": "avaliacoes/2026-11-22-aprovacoes-appadoka-ds-18-svgs.json"
-    },
-    {
-      "id": "arquivo-ecc824bdf4-ds18/15-coracao-gotinhas.svg",
-      "path": "assets/brand/ds18/15-coracao-gotinhas.svg",
-      "name": "Coração e gotinhas",
-      "category": "Grafismo",
-      "status": "reprovado_historico",
-      "notes": "",
-      "image": "assets/brand/ds18/15-coracao-gotinhas.svg",
-      "scope": "versoes_anteriores",
-      "sha": "ecc824bdf4f1a9b20313fd6c019911f2d69e4be1",
-      "decisionSource": "avaliacoes/2026-11-22-aprovacoes-appadoka-ds-18-svgs.json"
-    },
-    {
-      "id": "arquivo-3afc3c2e6d-ds18/16-wordmark-slogan.svg",
-      "path": "assets/brand/ds18/16-wordmark-slogan.svg",
-      "name": "Wordmark e slogan",
-      "category": "Marca",
-      "status": "reprovado_historico",
-      "notes": "",
-      "image": "assets/brand/ds18/16-wordmark-slogan.svg",
-      "scope": "versoes_anteriores",
-      "sha": "3afc3c2e6d9519b502fe77bbf024ad3f94d12610",
-      "decisionSource": "avaliacoes/2026-11-22-aprovacoes-appadoka-ds-18-svgs.json"
     },
     {
       "id": "18",
@@ -936,18 +744,6 @@
       "scope": "rodada_atual",
       "sha": "7e16ee2fca4a59ebd16e5e62f1a736fb1179f838",
       "decisionSource": "avaliacoes/2026-11-23-feedback-revisao-05.json"
-    },
-    {
-      "id": "arquivo-ee5d49a7d5-oficiais/logo-appadoka-aprovada.svg",
-      "path": "assets/brand/oficiais/logo-appadoka-aprovada.svg",
-      "name": "Logo principal aprovada",
-      "category": "Marca",
-      "status": "reprovado_historico",
-      "notes": "",
-      "image": "assets/brand/oficiais/logo-appadoka-aprovada.svg",
-      "scope": "acervo_oficial",
-      "sha": "ee5d49a7d5ec6f04d0f7a776407950461f4a4b54",
-      "decisionSource": "avaliacoes/2026-11-22-aprovacoes-appadoka-ds-18-svgs.json"
     },
     {
       "id": "arquivo-7e16ee2fca-revisoes/16-padrao-coracoes-vapor.svg",
