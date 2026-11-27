@@ -222,6 +222,235 @@
       "sha": "ee5d49a7d5ec6f04d0f7a776407950461f4a4b54",
       "decisionSource": "avaliacoes/2026-11-22-aprovacoes-appadoka-ds-18-svgs.json",
       "removed": true
+    },
+    {
+      "id": "beta-public/brand/oficiais/01-logo-principal.svg",
+      "path": "assets/importados/appadoka-beta/public/brand/oficiais/01-logo-principal.svg",
+      "sourcePath": "public/brand/oficiais/01-logo-principal.svg",
+      "sourceRepo": "carolinefreire/appadoka-beta",
+      "sourceCommit": "4a28202721d03cb198681ddc379e4715fda8259f",
+      "name": "01-logo-principal.svg",
+      "category": "Marca",
+      "status": "reprovado_historico",
+      "notes": "Selecionado no envio de 26/11/2026; aprovação não confirmada.",
+      "scope": "appadoka_beta",
+      "sha": "92ecf20071f8b0c3cebdf554a70bfe2c17316987",
+      "image": null,
+      "issues": [
+        26
+      ],
+      "removedAt": "2026-11-27"
+    },
+    {
+      "id": "arquivo-264e0d7469-ds18-revisao-02/02-logo-horizontal.svg",
+      "path": "assets/brand/ds18-revisao-02/02-logo-horizontal.svg",
+      "name": "Logo horizontal",
+      "category": "Marca",
+      "status": "reprovado_historico",
+      "notes": "Mesmo do 1",
+      "image": null,
+      "scope": "versoes_anteriores",
+      "sha": "264e0d746943c4fe23e7494ab9ff1406004578be",
+      "decisionSource": "avaliacoes/2026-11-22-feedback-revisao-02.json",
+      "issues": [
+        25,
+        16
+      ],
+      "removedAt": "2026-11-27"
+    },
+    {
+      "id": "beta-public/brand/derivados/animacao/elemento-gota-cima.png",
+      "path": "assets/importados/appadoka-beta/public/brand/derivados/animacao/elemento-gota-cima.png",
+      "sourcePath": "public/brand/derivados/animacao/elemento-gota-cima.png",
+      "sourceRepo": "carolinefreire/appadoka-beta",
+      "sourceCommit": "4a28202721d03cb198681ddc379e4715fda8259f",
+      "name": "elemento-gota-cima.png",
+      "category": "Animação",
+      "status": "reprovado_historico",
+      "notes": "Selecionado no envio de 26/11/2026; aprovação não confirmada.",
+      "scope": "appadoka_beta",
+      "sha": "9b9198c4bc85f93d3c95425606258734aac80d2f",
+      "image": null,
+      "issues": [
+        24
+      ],
+      "removedAt": "2026-11-27"
+    },
+    {
+      "id": "beta-public/brand/derivados/animacao/elemento-gota-baixo.png",
+      "path": "assets/importados/appadoka-beta/public/brand/derivados/animacao/elemento-gota-baixo.png",
+      "sourcePath": "public/brand/derivados/animacao/elemento-gota-baixo.png",
+      "sourceRepo": "carolinefreire/appadoka-beta",
+      "sourceCommit": "4a28202721d03cb198681ddc379e4715fda8259f",
+      "name": "elemento-gota-baixo.png",
+      "category": "Animação",
+      "status": "reprovado_historico",
+      "notes": "Selecionado no envio de 26/11/2026; aprovação não confirmada.",
+      "scope": "appadoka_beta",
+      "sha": "64f60dbd2d8c1e42b2d5e5bdfb918418d9123f36",
+      "image": null,
+      "issues": [
+        23
+      ],
+      "removedAt": "2026-11-27"
+    },
+    {
+      "id": "04",
+      "path": "assets/brand/ds18-revisao-06/04-icone-pao.svg",
+      "name": "Pão isolado",
+      "category": "Símbolo DS",
+      "status": "reprovado_historico",
+      "notes": "",
+      "image": null,
+      "scope": "versoes_anteriores",
+      "sha": "4b45cf0f2837ceb37fa9cb505146089fb3a2562a",
+      "issues": [
+        21
+      ],
+      "removedAt": "2026-11-27"
+    },
+    {
+      "id": "arquivo-f00e2e484a-ds18-revisao-04/02-logo-horizontal.svg",
+      "path": "assets/brand/ds18-revisao-04/02-logo-horizontal.svg",
+      "name": "Logo horizontal",
+      "category": "Marca",
+      "status": "reprovado_historico",
+      "notes": "Esse se vc conseguir ver, vc só pode estar de brincadeira comigo....",
+      "image": null,
+      "scope": "versoes_anteriores",
+      "sha": "f00e2e484ac3197946dfd48e63ad45f080089549",
+      "decisionSource": "avaliacoes/2026-11-23-feedback-revisao-04.json",
+      "issues": [
+        20
+      ],
+      "removedAt": "2026-11-27"
+    },
+    {
+      "id": "arquivo-ef9f3fb7b8-ds18-revisao-05/03-logo-compacta.svg",
+      "path": "assets/brand/ds18-revisao-05/03-logo-compacta.svg",
+      "name": "Logo compacta",
+      "category": "Marca",
+      "status": "reprovado_historico",
+      "notes": "Mesmo do 1",
+      "image": null,
+      "scope": "versoes_anteriores",
+      "sha": "ef9f3fb7b8c995526b42993a7ae32e4356e7b767",
+      "decisionSource": "avaliacoes/2026-11-23-feedback-revisao-05.json",
+      "issues": [
+        19
+      ],
+      "removedAt": "2026-11-27"
+    },
+    {
+      "id": "arquivo-ad19f591b7-ds18-revisao-03/02-logo-horizontal.svg",
+      "path": "assets/brand/ds18-revisao-03/02-logo-horizontal.svg",
+      "name": "Logo horizontal",
+      "category": "Marca",
+      "status": "reprovado_historico",
+      "notes": "O pão e as letras estão o mesmo do 1 e ainda esta desproporcional  e desalinhado com o escrito",
+      "image": null,
+      "scope": "versoes_anteriores",
+      "sha": "ad19f591b76b2536a72630985531f9f21907f739",
+      "decisionSource": "avaliacoes/2026-11-22-feedback-revisao-03.json",
+      "issues": [
+        18
+      ],
+      "removedAt": "2026-11-27"
+    },
+    {
+      "id": "arquivo-2f693aa7b1-ds18-revisao-03/03-logo-compacta.svg",
+      "path": "assets/brand/ds18-revisao-03/03-logo-compacta.svg",
+      "name": "Logo compacta",
+      "category": "Marca",
+      "status": "reprovado_historico",
+      "notes": "Mesmo do 1 e pão pequeno em relação a proporção das letras",
+      "image": null,
+      "scope": "versoes_anteriores",
+      "sha": "2f693aa7b13dce0a39e8d181168a82f8caae08d0",
+      "decisionSource": "avaliacoes/2026-11-22-feedback-revisao-03.json",
+      "issues": [
+        17
+      ],
+      "removedAt": "2026-11-27"
+    },
+    {
+      "id": "arquivo-5888e59f82-vector-studies/graphic-elements-v7-study.svg",
+      "path": "vector-studies/graphic-elements-v7-study.svg",
+      "name": "graphic elements v7 study",
+      "category": "Grafismo",
+      "status": "reprovado_historico",
+      "notes": "",
+      "image": null,
+      "scope": "referencia_estudo",
+      "sha": "5888e59f82168b715ad8b88d2740e82933989223",
+      "issues": [
+        15
+      ],
+      "removedAt": "2026-11-27"
+    },
+    {
+      "id": "arquivo-d336908494-vector-studies/bread-icon-v7-study.svg",
+      "path": "vector-studies/bread-icon-v7-study.svg",
+      "name": "bread icon v7 study",
+      "category": "Ícone e símbolo",
+      "status": "reprovado_historico",
+      "notes": "",
+      "image": null,
+      "scope": "referencia_estudo",
+      "sha": "d33690849461080ab6462fd89dd0b84db29fbdef",
+      "issues": [
+        14,
+        12
+      ],
+      "removedAt": "2026-11-27"
+    },
+    {
+      "id": "arquivo-ec7a2b2eae-ds18-revisao-04/06-monograma.svg",
+      "path": "assets/brand/ds18-revisao-04/06-monograma.svg",
+      "name": "Monograma a",
+      "category": "Ícone e símbolo",
+      "status": "reprovado_historico",
+      "notes": "Agora tá ruim e cheio de aresta ainda, e sem o coração nas mordidas, que ficaram muito diferentes da do pao",
+      "image": null,
+      "scope": "versoes_anteriores",
+      "sha": "ec7a2b2eaea2caef0febd4cd9e4e9afadd4e5895",
+      "decisionSource": "avaliacoes/2026-11-23-feedback-revisao-04.json",
+      "issues": [
+        13
+      ],
+      "removedAt": "2026-11-27"
+    },
+    {
+      "id": "arquivo-b65af995c3-ds18-revisao-05/06-monograma.svg",
+      "path": "assets/brand/ds18-revisao-05/06-monograma.svg",
+      "name": "Monograma a",
+      "category": "Ícone e símbolo",
+      "status": "reprovado_historico",
+      "notes": "Oxi, que mordidas são essas? Tem que ser igual ao do pao e o a ainda está hexagonal",
+      "image": null,
+      "scope": "versoes_anteriores",
+      "sha": "b65af995c31b6369beeb6583d6ca502c8274ae07",
+      "decisionSource": "avaliacoes/2026-11-23-feedback-revisao-05.json",
+      "issues": [
+        11
+      ],
+      "removedAt": "2026-11-27"
+    },
+    {
+      "id": "arquivo-10ecaba5dc-ds18-revisao-02/07-linhas-velocidade.svg",
+      "path": "assets/brand/ds18-revisao-02/07-linhas-velocidade.svg",
+      "name": "Linhas de velocidade",
+      "category": "Grafismo",
+      "status": "reprovado_historico",
+      "notes": "Mesmo do 1",
+      "image": null,
+      "scope": "versoes_anteriores",
+      "sha": "10ecaba5dcf691d9117b8735e6c4c102e4a06231",
+      "decisionSource": "avaliacoes/2026-11-22-feedback-revisao-02.json",
+      "issues": [
+        10
+      ],
+      "removedAt": "2026-11-27"
     }
   ]
 }
