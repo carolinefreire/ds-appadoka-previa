@@ -1,0 +1,23 @@
+{
+  "omitted": [
+    "docs/design-system/design-system-appadoka-v4-monograma-mordidas.png",
+    "docs/design-system/design-system-appadoka-v5-monograma-poppins.png",
+    "docs/design-system/referencia-mapa-marca-appadoka.png",
+    "public/favicon.png",
+    "src/design-system/the-reading-room-f1d99d/assets/icons/04-icone-pao.svg",
+    "src/design-system/the-reading-room-f1d99d/assets/icons/05-icone-app-coral.svg",
+    "src/design-system/the-reading-room-f1d99d/assets/icons/06-monograma.svg",
+    "src/design-system/the-reading-room-f1d99d/assets/icons/07-linhas-velocidade.svg",
+    "src/design-system/the-reading-room-f1d99d/assets/icons/08-vapor-duplo.svg",
+    "src/design-system/the-reading-room-f1d99d/assets/icons/09-onda-coracao.svg",
+    "src/design-system/the-reading-room-f1d99d/assets/icons/11-favicon-creme.svg",
+    "src/design-system/the-reading-room-f1d99d/assets/icons/12-favicon-terracota.svg",
+    "src/design-system/the-reading-room-f1d99d/assets/icons/13-favicon-rose.svg",
+    "src/design-system/the-reading-room-f1d99d/assets/icons/14-favicon-cacau.svg",
+    "src/design-system/the-reading-room-f1d99d/assets/illustrations/10-padrao-textura.svg",
+    "src/design-system/the-reading-room-f1d99d/assets/logos/01-logo-principal.svg",
+    "src/design-system/the-reading-room-f1d99d/assets/logos/02-logo-horizontal.svg",
+    "src/design-system/the-reading-room-f1d99d/assets/logos/03-logo-compacta.svg"
+  ],
+  "reason": "Triagem final: nenhum outro arquivo selecionado"
+}

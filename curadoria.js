@@ -26,7 +26,7 @@ function closeDialog() {
 }
 function setPreview(img, item, fallback) {
   img.alt = item.name;
-  img.loading = "lazy";
+  img.loading = "eager";
   img.onerror = () => {
     img.hidden = true;
     fallback.hidden = false;
@@ -49,7 +49,9 @@ function openDialog(item, origin) {
   const img = $("dialog-preview"), unavailable = $("private-preview");
   setPreview(img, item, unavailable);
   // This link needs GitHub authorization, since the original repository is private.
-  $("private-view").href = privateUrl(item);
+  $("private-view").href = item.preview || item.image || privateUrl(item);
+  $("direct-preview").href = item.preview || item.image || privateUrl(item);
+  $("direct-preview").textContent = item.preview ? "Abrir animação ↗" : "Abrir imagem no navegador ↗";
   $("dialog-note").value = typeof notes[item.path] === "string" ? notes[item.path] : (item.notes || "");
   $("dialog-help").textContent = "A Issue registra seu pedido, sem alterar arquivos ou decisões.";
   $("action-dialog").showModal();
@@ -67,9 +69,9 @@ function issueUrl(item, note) {
     "**Categoria:** " + item.category,
     "**Estado exibido:** " + readable(item),
     "**Prévia pública:** " + (item.image ?
-      "https://carolinefreire.github.io/ds-appadoka-previa/" + item.image : "Ainda não disponível"),
+      "https://carolinefreire.github.io/ds-appadoka-previa/" + (item.preview || item.image) : "Ainda não disponível"),
     "",
-    ...(item.image ? ["### Imagem em avaliação", "", "![" + item.name + "](https://raw.githubusercontent.com/" + repo + "/main/" + item.path.split("/").map(encodeURIComponent).join("/") + ")", ""] : []),
+    ...(item.image ? ["### Imagem em avaliação", "", "![" + item.name + "](https://raw.githubusercontent.com/" + repo + "/main/" + (item.preview ? item.image : item.path.split("/").map(encodeURIComponent).join("/")) + ")", ""] : []),
     "### Ajuste ou observação",
     note,
     "",
@@ -156,6 +158,7 @@ function render() {
     open.type = "button";
     open.addEventListener("click",() => openDialog(item,open));
     data.append(open);
+    if(item.preview){const play=E("a","review-open","▶ Ver Splash animada");play.href=item.preview;play.target="_blank";play.rel="noopener noreferrer";data.append(play);}
     const actions=E("div","curation-actions");
     const approve=E("button","curation-approve",isApproved(item)?"✓ Aprovado":"✓ Aprovar");
     approve.type="button";approve.disabled=isApproved(item);
