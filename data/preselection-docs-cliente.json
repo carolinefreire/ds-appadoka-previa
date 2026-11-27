@@ -1,0 +1,40 @@
+{
+  "selected": [
+    "docs/design-system/design-system-appadoka-v6-monograma-a-logo.png"
+  ],
+  "omitted": [
+    "docs/cliente/evidencias/c09-c11-v001/captura-c09-fundo-390.png",
+    "docs/cliente/evidencias/c09-c11-v001/captura-c11-inicio-390.png",
+    "docs/cliente/evidencias/c09-c11-v001/captura-c11-resumo-390.png",
+    "docs/cliente/evidencias/c10-carrinho/c10-preenchido-360.png",
+    "docs/cliente/evidencias/c10-carrinho/c10-preenchido-390.png",
+    "docs/cliente/evidencias/c10-carrinho/c10-resumo-360.png",
+    "docs/cliente/evidencias/c10-carrinho/c10-resumo-390.png",
+    "docs/cliente/evidencias/c10-carrinho/c10-vazio-390.png",
+    "docs/cliente/evidencias/c10-lupa-v003/captura-c10-revisar-pedido-443.png",
+    "docs/cliente/evidencias/c10-visual-v002/captura-c10-carrinho-390.png",
+    "docs/cliente/evidencias/c10-visual-v002/captura-c10-previa-390.png",
+    "docs/cliente/evidencias/c10-visual-v002/captura-c10-resumo-390.png",
+    "docs/cliente/evidencias/c11-calendario-v001/captura-c11-calendario-360-v001.png",
+    "docs/cliente/evidencias/c11-calendario-v001/captura-c11-calendario-390-v001.png",
+    "docs/cliente/evidencias/c11-calendario-v001/captura-c11-calendario-443-v001.png",
+    "docs/cliente/evidencias/c11-calendario-v001/captura-c11-data-confirmada-360-v001.png",
+    "docs/cliente/evidencias/c11-calendario-v001/captura-c11-data-confirmada-390-v001.png",
+    "docs/cliente/evidencias/c11-calendario-v001/captura-c11-data-confirmada-443-v001.png",
+    "docs/cliente/evidencias/c11-cartao-v001/captura-c11-cartao-390-v001.png",
+    "docs/cliente/evidencias/c11-cartao-v001/captura-c11-cartao-confirmado-443-v001.png",
+    "docs/cliente/evidencias/c11-instrucoes-loja-v001/captura-c11-instrucoes-loja-390-v001.png",
+    "docs/cliente/evidencias/c11-modalidades-v001/captura-c11-ponto-fixo-390-v001.png",
+    "docs/cliente/evidencias/c11-modalidades-v001/captura-c11-ponto-variavel-390-v001.png",
+    "docs/cliente/evidencias/c11-resumo-v001/captura-c11-resumo-390-v001.png",
+    "docs/cliente/evidencias/c11-revalidacao-v001/captura-c11-inicio-390.png",
+    "docs/cliente/evidencias/c11-revalidacao-v001/captura-c11-resumo-390.png",
+    "docs/cliente/evidencias/c23-c24-v001/C23-diff.png",
+    "docs/cliente/evidencias/c23-c24-v001/C23-react.png",
+    "docs/cliente/evidencias/c23-c24-v001/C24-diff.png",
+    "docs/cliente/evidencias/c23-c24-v001/C24-react.png",
+    "docs/cliente/evidencias/revisao-completa-v002/captura-c11-itens-agendamento-390.png",
+    "docs/cliente/evidencias/revisao-completa-v002/captura-c11-pagamento-resumo-390.png"
+  ],
+  "uploadCommit": "68c755e086cda6041a7fbc900b3b6a6e048db588"
+}
