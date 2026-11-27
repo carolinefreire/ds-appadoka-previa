@@ -1,0 +1,29 @@
+{
+  "selected": [
+    "public/cliente-design/revisao/C29-render.webp"
+  ],
+  "purpose": "Preservar texto do manifesto",
+  "omitted": [
+    "public/cliente-design/aprovadas/C01-splash/C01-aprovada-render.png",
+    "public/cliente-design/assets/decor-edges-C23.webp",
+    "public/cliente-design/assets/loja/bolo_pote.webp",
+    "public/cliente-design/assets/loja/cafe.webp",
+    "public/cliente-design/assets/loja/capa.webp",
+    "public/cliente-design/assets/loja/croissant.webp",
+    "public/cliente-design/assets/loja/pao_queijo.webp",
+    "public/cliente-design/assets/textura-marca.png",
+    "public/cliente-design/paineis-referencias/C01-C10-preview.webp",
+    "public/cliente-design/paineis-referencias/C01-C10.png",
+    "public/cliente-design/paineis-referencias/C11-C20-preview.webp",
+    "public/cliente-design/paineis-referencias/C11-C20.png",
+    "public/cliente-design/paineis-referencias/C21-C29-preview.webp",
+    "public/cliente-design/paineis-referencias/C21-C29.png",
+    "public/cliente-design/propostas/C01-splash/C01-splash-proposta.png",
+    "public/cliente-design/revisao/C23-aprovado.webp",
+    "public/cliente-design/revisao/C23-render.webp",
+    "public/cliente-design/revisao/C24-aprovado.webp",
+    "public/cliente-design/revisao/C24-render.webp",
+    "public/cliente-design/revisao/contato-29-telas.webp"
+  ],
+  "uploadCommit": "3165ad74148edfcf69675041c488d9f39932627f"
+}
